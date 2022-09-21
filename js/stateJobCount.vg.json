@@ -4,7 +4,7 @@
     "width": 900,
     "height": 600,
     "data": {
-      "url": "https://raw.githubusercontent.com/HimsaraGallege/testRepo/main/Australian-states.topojson",
+      "url": "https://raw.githubusercontent.com/HimsaraGallege/FIT3179-Homework-W9/main/js/Australian-states.topojson",
       "format": {
             "type": "topojson",
             "feature": "Australian-states"
@@ -14,7 +14,7 @@
         "lookup": "properties.STATE_NAME",
         "from": {
           "data": {
-            "url": "../data/StateInfo.csv"
+            "url": "https://raw.githubusercontent.com/HimsaraGallege/FIT3179-Homework-W9/main/data/StateInfo.csv"
           },
           "key": "State",
           "fields": ["Jobs"]
